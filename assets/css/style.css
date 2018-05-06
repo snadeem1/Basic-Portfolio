@@ -19,7 +19,7 @@ h1{
 .box1{
     position: relative;
     width: 200px;
-    height: 59px;
+    height: 54px;
 
 }
 
@@ -38,6 +38,7 @@ p, a {
 a{
     padding-right: 9px;
     text-decoration-line: none;
+    
 }
 
 body {
@@ -52,23 +53,18 @@ img {
     
 }
 p{
-    margin: 50px;
+    
     margin-right: 5px;
     line-height: 25px;
     position: relative;
     left: 20px;
-    top: -35px;
+    top: -5px;
 }
-.p2{
-    left: -50px;
-    text-align: left;
-    margin-bottom: 20px;
-    margin-right: -50px;
-    bottom: -30px;
-}
-.p3{
-    left: -50px;
-    top: -80px;
+
+.p2, .p3{
+    left: -10px;
+    right: -20px;
+    top: -10px;
 }
 #box{
     background-color: white;
@@ -78,7 +74,7 @@ p{
     margin-bottom: 70px;
     margin-right:auto;
     margin-left: auto;
-    padding: 15px 30px 40px 30px;
+    padding: 15px 30px 60px 30px;
     border-style: solid;
     border-color:#dddddd;
     border-width: 0.1px;
@@ -89,7 +85,7 @@ p{
 #navitems
 {
     float: left;
-    margin-top: 25px;
+    margin-top: 20px;
     margin-bottom: 25px;
     margin-left: 540px;
 }
@@ -100,7 +96,7 @@ p{
 
 #box0{
     background-color: white;
-    height: 70px;
+    height: 65px;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color:#cccccc;
