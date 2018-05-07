@@ -3,7 +3,6 @@ header{
     border: #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0px;
-
 }
 h1{
     color: white;
@@ -38,6 +37,7 @@ a{
     
 }
 
+
 body {
     background: url("spring.png");
     overflow: auto;
@@ -69,12 +69,12 @@ right: -20px;
     height: 320px;
     margin-top:20px;
     margin-bottom: 70px;
-    margin-right:auto;
-    margin-left: auto;
+    margin-left: 147px;
     padding: 15px 30px 60px 30px;
     border-style: solid;
     border-color:#dddddd;
     border-width: 0.1px;
+
 }
 
 .box1{
@@ -104,9 +104,10 @@ right: -20px;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color:#cccccc;
+
 }
 
-footer{
+.footer{
     background-color: gray;
     height: 20px;
     color: white;
@@ -114,4 +115,8 @@ footer{
     padding-top: 20px;
     font-size: 10px;
     border-top: solid #4aaaa5 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }

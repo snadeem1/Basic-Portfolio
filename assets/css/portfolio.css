@@ -43,8 +43,7 @@ h2{
     height: 500px;
     margin-top:20px;
     margin-bottom: 70px;
-    margin-right:auto;
-    margin-left: auto;
+    margin-left: 147px;
     padding: 15px 30px 85px 30px;
     border-style: solid;
     border-color:#dddddd;
@@ -174,7 +173,7 @@ img{
 
 }
 
-footer{
+.footer{
     background-color: gray;
     height: 20px;
     color: white;
@@ -182,4 +181,8 @@ footer{
     padding-top: 20px;
     font-size: 10px;
     border-top: solid #4aaaa5 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
