@@ -2,7 +2,13 @@ header{
     background-color:#ffffff;
     border: #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
+    width: 100%;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color:#cccccc;
+    padding-bottom: -22px;
+    height: 65px;
+ }
 body {
     background: url("spring.png");
     overflow: auto;
@@ -36,14 +42,15 @@ h2{
     border-bottom: solid #cccccc 1px;
     padding-bottom: 15px;
 }
-
+/* due to the scroll bar, the margin is different in 100% pageview */
 #box{
     background-color: #ffffff;
     width: 900px;
     height: 500px;
-    margin-top:20px;
+    margin-top:40px;
     margin-bottom: 70px;
-    margin-left: 147px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 15px 30px 85px 30px;
     border-style: solid;
     border-color:#dddddd;
@@ -55,16 +62,19 @@ h2{
     position: relative;
     width: 200px;
     height: 54px;
-    left: -5px;
+
 
 }
 
 #box0{
     background-color: white;
     height: 65px;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color:#cccccc;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+     max-width: 1272px;
+    
+
 }
 
 #navitems

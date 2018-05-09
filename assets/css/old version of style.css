@@ -2,13 +2,8 @@ header{
     background-color:#ffffff;
     border: #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 100%;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color:#cccccc;
-    padding-bottom: -22px;
-    height: 65px;
- }
+    
+}
 h1{
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -70,12 +65,11 @@ right: -20px;
 #box{
     background-color: white;
     width: 900px;
-    height: 250px;
-    margin-top:40px;
+    height: 320px;
+    margin-top:20px;
     margin-bottom: 70px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 15px 30px 50px 30px;
+    margin-left: 147px;
+    padding: 15px 30px 60px 30px;
     border-style: solid;
     border-color:#dddddd;
     border-width: 0.1px;
@@ -86,7 +80,7 @@ right: -20px;
     position: relative;
     width: 200px;
     height: 54px;
-
+    left: -5px;
 
 }
 
@@ -106,10 +100,9 @@ right: -20px;
 #box0{
     background-color: white;
     height: 65px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-     max-width: 1272px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color:#cccccc;
     
 
 }
