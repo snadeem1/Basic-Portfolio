@@ -2,7 +2,7 @@ header{
     background-color:#ffffff;
     border: #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 0px;
+    
 }
 h1{
     color: white;
@@ -36,7 +36,6 @@ a{
     text-decoration-line: none;
     
 }
-
 
 body {
     background: url("spring.png");
@@ -74,8 +73,8 @@ right: -20px;
     border-style: solid;
     border-color:#dddddd;
     border-width: 0.1px;
-
 }
+
 
 .box1{
     position: relative;
@@ -104,6 +103,7 @@ right: -20px;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color:#cccccc;
+    
 
 }
 
