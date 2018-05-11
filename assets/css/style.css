@@ -68,7 +68,7 @@ right: -20px;
 }
 
 #box{
-    background-color: white;
+    background-color: #ffffff;
     width: 900px;
     height: 250px;
     margin-top:40px;
@@ -99,6 +99,9 @@ right: -20px;
     margin-left: 523px;
 }
 
+a:hover{
+    background-color: pink;
+}
 #imgleft{
     float:left;
 }
@@ -115,7 +118,7 @@ right: -20px;
 }
 
 .footer{
-    background-color: gray;
+    background-color: #666666;
     height: 20px;
     color: white;
     text-align: center;
