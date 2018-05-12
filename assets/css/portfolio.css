@@ -85,6 +85,10 @@ h2{
     margin-left: 523px;
 }
 
+a:hover{
+    background-color: pink;
+}
+
 img{
     width: 173.4px;
     height: 130px;
@@ -181,6 +185,31 @@ img{
     height: 25px;
     padding-top: 5px;
 
+}
+
+.github{
+    width: 70px;
+    height: 70px;
+    right: -800px;
+    top: -500px;
+    border: solid;
+    border-width: 1px;
+    border-color:#dddddd;
+    padding: 0.5px;
+    border-radius: 5px;
+
+}
+
+.linkedin{
+    width: 70px;
+    height: 70px;
+    right: -790px;
+    top: -500px;
+    border: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    padding: 0px;
+    border-radius: 5px;
 }
 
 .footer{
